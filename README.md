@@ -7,6 +7,10 @@ install virtual box guest additions
 
 for debian 12: https://itslinuxfoss.com/install-virtualbox-guest-additions-debian-12/
 
+reboot
+```bash
+sudo reboot
+```
 Add yourself to the vboxsf group within the guest VM.
 then reboot
 ```bash
