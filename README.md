@@ -4,8 +4,10 @@
 add a shared folder, tick auto-mount when making it 
 for debian 12: https://itslinuxfoss.com/install-virtualbox-guest-additions-debian-12/
 Add yourself to the vboxsf group within the guest VM.
+then reboot
 ```bash
-add a shared folder, tick auto-mount
+sudo adduser $USER vboxsf
+sudo reboot
 ```
 
 ### user is not in sudoers file
