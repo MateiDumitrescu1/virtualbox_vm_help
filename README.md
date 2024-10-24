@@ -12,6 +12,10 @@ sudo adduser $USER vboxsf
 sudo reboot
 ```
 
+Check out the shared folder on the Guest!!
+```bash
+cd /media | ls
+```
 ### user is not in sudoers file
 
 
