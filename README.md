@@ -3,6 +3,8 @@
 ### configure shared folders
 add a shared folder, tick auto-mount when making it 
 
+install virtual box guest additions 
+
 for debian 12: https://itslinuxfoss.com/install-virtualbox-guest-additions-debian-12/
 
 Add yourself to the vboxsf group within the guest VM.
