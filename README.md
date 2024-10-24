@@ -12,7 +12,7 @@ sudo adduser $USER vboxsf
 sudo reboot
 ```
 
-Check out the shared folder on the Guest!!
+Check out the shared folder on the Guest!! It will be called sf_something
 ```bash
 cd /media
 ls -a
