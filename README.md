@@ -14,7 +14,8 @@ sudo reboot
 
 Check out the shared folder on the Guest!!
 ```bash
-cd /media | ls
+cd /media
+ls -a
 ```
 ### user is not in sudoers file
 
