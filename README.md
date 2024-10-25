@@ -39,3 +39,5 @@ ssh -p 2222 username@localhost"
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
+
+### assign static ip to vm in virtualbox
