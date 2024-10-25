@@ -48,3 +48,6 @@ sudo usermod -aG docker $USER
 ```
 
 ### assign static ip to vm in virtualbox
+
+
+### check if docker, or moby engine is installed 
