@@ -50,4 +50,8 @@ sudo usermod -aG docker $USER
 ### assign static ip to vm in virtualbox
 
 
-### check if docker, or moby engine is installed 
+### check if docker, or just moby-engine is installed 
+```bash
+dpkg -l | grep -i docker
+```
+You should see a lot of docker packages if docker in installed, or just moby-engine 
