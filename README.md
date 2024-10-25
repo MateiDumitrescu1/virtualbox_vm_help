@@ -32,3 +32,10 @@ then you can
 ```bash
 ssh -p 2222 username@localhost"
 ```
+
+
+### to use docker without sudo -> create a user group called docker, add current user to it 
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
