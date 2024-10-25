@@ -1,5 +1,12 @@
 # virtualbox_vm_help
 
+### setup ssh  
+ubuntu  
+```bash
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl status ssh
+```
 ### configure shared folders
 add a shared folder, tick auto-mount when making it 
 
